@@ -1,7 +1,7 @@
 <template>
     <v-container fluid>
         <v-row>
-            <v-col md="8">
+            <v-col md="8" cols="12">
                 <v-card flat tile>
                     <v-card-title>
                         The Ball House
@@ -18,7 +18,7 @@
                     </v-card-text>
                 </v-card>
             </v-col>
-            <v-col md="4">
+            <v-col md="4" cols="12">
                 <v-img
                     src="https://smitha-cdn.s3.us-east-2.amazonaws.com/BallHouse/history-bordered.jpg"
                     class="bg-grey-lighten-2"
@@ -41,7 +41,7 @@
             </v-col>
         </v-row>
         <v-row>
-            <v-col md="4">
+            <v-col md="4" cols="12">
                 <v-img
                     src="https://smitha-cdn.s3.us-east-2.amazonaws.com/BallHouse/cottages-bordered.jpg"
                     class="bg-grey-lighten-2"
@@ -62,7 +62,7 @@
                     </template>
                 </v-img>
             </v-col>
-            <v-col md="8">
+            <v-col md="8" cols="12">
                 <v-card flat tile>
                     <v-card-title>
                         The Cottages

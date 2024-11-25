@@ -25,6 +25,9 @@ export const useAppStore = defineStore('app', {
   },
   actions: {
     async fetchContent(): Promise<void> {
+      // TODO: Deploy api
+      return
+
       const response = await apiClient.getData('/api/WordPressContent')
       if (!response.success){
         console.error("Failed to get page content.")

@@ -59,7 +59,7 @@
               </v-card-actions> -->
             </v-card>
           </template>
-          <template v-if="!aboutPage">
+          <!-- <template v-if="!aboutPage">
             <v-skeleton-loader
               type="article"
               color="transparent"
@@ -77,7 +77,7 @@
                 <span v-html="aboutPage.content"></span>
               </v-card-text>
             </v-card>
-          </template>
+          </template> -->
         </v-col>
         <v-col md="4" cols="12"  class="justify-center align-center">
           <v-card flat tile class="h-100 mt-5">

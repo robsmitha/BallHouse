@@ -38,7 +38,7 @@
         <!-- <v-list-item title="Stay" value="stay" to="/stay"></v-list-item> -->
         <v-list-item title="Meet, Celebrate & Pricing" value="pricing" to="/pricing"></v-list-item>
         <v-list-item title="Gallery" value="gallery" to="/gallery"></v-list-item>
-        <!-- <v-list-item title="Contact" value="contact" to="/contact"></v-list-item> -->
+        <v-list-item title="Contact" value="contact" to="/contact"></v-list-item>
 
         <!-- <v-list-item :subtitle="auth.signedIn ? auth.userDetails : 'Administration'"></v-list-item>
         <template v-if="auth.signedIn">
